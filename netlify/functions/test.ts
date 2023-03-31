@@ -1,4 +1,4 @@
-import { Handler } from "@netlify/functions";
+import { Handler } from “@netlify/functions”;
 import { wrap } from "@netlify/integrations";
 import { withPlanetscale } from "@netlify/planetscale";
 import { withAuth0 } from "@netlify/auth0";
