@@ -17,7 +17,7 @@ export const handler: Handler = withIntegrations(
     };
   },
   {
-    required: true,
+    required: false,
     roles: ["admin"],
   }
 )
